@@ -184,7 +184,7 @@ const App = () => {
         type="file"
         ref={fileInputRef}
         onChange={handleFileUpload}
-        accept="audio/*"
+        accept="audio/mpeg" 
         multiple
         className="hidden"
       />
